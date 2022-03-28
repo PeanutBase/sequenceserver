@@ -1,3 +1,17 @@
+# sequenceserver.peanutbase.org
+
+### To deploy in production
+
+```
+docker compose up -d --build
+```
+
+### To deploy in a local development/testing environment
+
+1. Update `.env`, setting (or simply deleting) the PORT environment variable appropriately
+2. `docker compose up -d --build`
+
+## original README.md
 [![gem version](https://img.shields.io/badge/version-1.0.x%20(old%20stable)-green.svg)](http://rubygems.org/gems/sequenceserver)
 [![build status](https://www.travis-ci.com/wurmlab/sequenceserver.svg?branch=1.0.x)](https://travis-ci.com/wurmlab/sequenceserver)
 [![total downloads](http://ruby-gem-downloads-badge.herokuapp.com/sequenceserver?type=total&color=brightgreen)](http://rubygems.org/gems/sequenceserver)
